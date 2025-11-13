@@ -26,6 +26,12 @@ public class EmailController {
     @NonFinal
     String apiKey;
 
+    @GetMapping("/")
+    public String ping() throws Exception {
+        log.info("Hello! The email service is running.");
+        return "Hello! The email service is running.";
+    }
+
     @GetMapping("/login")
     public String login() throws Exception {
         log.info("login");
