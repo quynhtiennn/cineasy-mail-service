@@ -1,0 +1,14 @@
+azure:
+  client-id:
+  client-secret:
+  tenant-id:
+  redirect-uri:
+  scope:
+
+app:
+  frontend-url:
+  image-path:
+  api-url:
+
+security:
+  api-key:
