@@ -22,7 +22,7 @@ This service handles **email notifications** for Cineasy. It runs independently 
 
 ## 🚀 Getting Started
 
-### **Create `.env` file**
-Copy `.env.example` and fill in the required values.
+### **Create `application.properties` file**
+Copy `application-example.properties` and fill in the required values.
 
 ### **Run the project on your IDE**
